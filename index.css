@@ -1,0 +1,119 @@
+*{
+    font-family:'Open Sans', sans-serif ;
+}
+
+header img{
+    margin-left: 17vh;
+    height:8vh;
+    margin-bottom: 4vh;
+    
+}
+body{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #B50924;
+    height: 15vh;
+    width: 100%;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header nav{
+    
+}
+header  nav ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    fon
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+    margin-left: 35vh;
+    
+}
+
+
+main img {
+    width: 100%;
+}
+
+main .colom2{
+    display: flex;
+    justify-content: center;
+}
+
+main  .colom2 p{
+    font-size: 24px;
+    color: #B50924;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+main .colom3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main .colom3 img {
+    width: 350px;
+}
+
+main .colom3 .poster {
+    text-align: center;
+    border: 1px solid #bebebe;
+}
+
+main .colom3 .poster:hover {
+    border: 2px solid #B50924;
+    transition: 0.2s;
+}
+
+
+main .colom3 .poster  p {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+footer {
+    background-color: #B50924;
+}
+
+footer  ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+footer ul  li  {
+    list-style: none;
+}
+
+footer  ul li img {
+    width: 20px;
+}
+
+footer .text_footer {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+footer .text_footer p{
+    font-size: 12px;
+}
